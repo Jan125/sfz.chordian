@@ -35,4 +35,4 @@ NOTE:
 Most VST hosts send notes on the same time in a random order.
 The safest method is to have Chord and Key 1/64th preplaced of everything else.
 
-PLEASE ADVISE: This instrument may be erroneous. All behaviours have been implemented from second-hand sources and association.```
+PLEASE ADVISE: This instrument may be erroneous. All behaviours have been implemented from second-hand sources and association.
