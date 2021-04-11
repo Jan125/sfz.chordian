@@ -1,10 +1,10 @@
-//Chordian.SFZ rev. 2021-04-11
+//Chordian.SFZ rev. 2021-04-12
 //An Omnichord OM-84-esque instrument/sound documentation.
 //
 //This is an SFZ v2 instrument. It has been tested in Sforzando.
 //
-//People who are members of the Omnichord Reddit, Discord, or other affiliated groups that did down an Omnichord OM-36 (or later models) by the 11th of April 2021 are 
-//NOT ALLOWED TO USE this instrument.
+//People who are members of the Omnichord Reddit, Discord, or other affiliated groups that did down an Omnichord 
+//OM-36 (or later models) by the 11th of April 2021 are NOT ALLOWED TO USE this instrument.
 //You have been literally no help at all.
 //
 //Exceptions to this are:
@@ -30,6 +30,11 @@
 //|Root |     |     |     |     |     |     |     |     |     |     |     |     |     |Oct.0|Oct.0|Oct.1|Oct.1|Oct.2|Oct.3|Oct.3|
 //|-C-3-|-D-3-|-E-3-|-F-3-|-G-3-|-A-3-|-B-3-|-C-4-|-D-4-|-E-4-|-F-4-|-G-4-|-A-4-|-B-4-|-C-5-|-D-5-|-E-5-|-F-5-|-G-5-|-A-5-|-B-5-|
 //
+//CC01 (Mod Wheel):
+//    0:    -0.0s harp release time
+//    v
+//  100:    -5.0s harp release time
+//
 //NOTE:
 //Most VST hosts send notes on the same time in a random order.
 //The safest method is to have Chord and Key 1/64th preplaced of everything else.
@@ -38,7 +43,7 @@
 
 
 <global>
-ampeg_attack=0.001
+ampeg_attack=0.0001
 ampeg_decay=6.0
 ampeg_sustain=0
 ampeg_release=6.0
@@ -1556,6 +1561,8 @@ sample=chordian\chordian_drum_hihat.wav
 
 //HARP 1-3
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=1
     polyphony=1
     sample=chordian\chordian_note.wav
@@ -1994,6 +2001,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-12
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=2
     polyphony=1
     sample=chordian\chordian_note.wav
@@ -2432,6 +2441,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-8
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=3
     polyphony=1
     sample=chordian\chordian_note.wav
@@ -2871,6 +2882,8 @@ sample=chordian\chordian_drum_hihat.wav
         
 //HARP 4-6
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=4
     polyphony=1
     sample=chordian\chordian_note.wav
@@ -3309,6 +3322,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-12
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=5
     polyphony=1
     sample=chordian\chordian_note.wav
@@ -3747,6 +3762,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-8
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=6
     polyphony=1
     sample=chordian\chordian_note.wav
@@ -4186,6 +4203,8 @@ sample=chordian\chordian_drum_hihat.wav
         
 //HARP 7-9
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=7
     polyphony=1
     sample=chordian\chordian_note.wav
@@ -4624,6 +4643,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-12
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=8
     polyphony=1
     sample=chordian\chordian_note.wav
@@ -5062,6 +5083,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-8
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=9
     polyphony=1
     sample=chordian\chordian_note.wav
@@ -5501,6 +5524,8 @@ sample=chordian\chordian_drum_hihat.wav
         
 //HARP 10-12
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=10
     polyphony=1
     sample=chordian\chordian_note.wav
@@ -5939,6 +5964,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-12
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=11
     polyphony=1
     sample=chordian\chordian_note.wav
@@ -6377,6 +6404,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-8
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=12
     polyphony=1
     sample=chordian\chordian_note.wav
@@ -6816,6 +6845,8 @@ sample=chordian\chordian_drum_hihat.wav
         
 //HARPEFFECT 1-3
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=13
     polyphony=1
     delay=0.000001
@@ -7259,6 +7290,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-12
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=14
     polyphony=1
     delay=0.000001
@@ -7702,6 +7735,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-8
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=15
     polyphony=1
     delay=0.000001
@@ -8146,6 +8181,8 @@ sample=chordian\chordian_drum_hihat.wav
         
 //HARPEFFECT 4-6
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=16
     polyphony=1
     delay=0.000001
@@ -8589,6 +8626,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-12
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=17
     polyphony=1
     delay=0.000001
@@ -9032,6 +9071,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-8
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=18
     polyphony=1
     delay=0.000001
@@ -9476,6 +9517,8 @@ sample=chordian\chordian_drum_hihat.wav
         
 //HARPEFFECT 7-9
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=19
     polyphony=1
     delay=0.000001
@@ -9919,6 +9962,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-12
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=20
     polyphony=1
     delay=0.000001
@@ -10362,6 +10407,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-8
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=21
     polyphony=1
     delay=0.000001
@@ -10806,6 +10853,8 @@ sample=chordian\chordian_drum_hihat.wav
         
 //HARPEFFECT 10-12
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=22
     polyphony=1
     delay=0.000001
@@ -11249,6 +11298,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-12
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     group=23
     polyphony=1
     delay=0.000001
@@ -11692,6 +11743,8 @@ sample=chordian\chordian_drum_hihat.wav
         transpose=-8
         
 <group>
+    ampeg_decaycc01=-5.0
+    ampeg_releasecc01=-5.0
     polyphony=1
     group=24
     polyphony=1
