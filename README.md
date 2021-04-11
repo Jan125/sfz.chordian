@@ -1,11 +1,11 @@
 ```
-Chordian.SFZ rev. 2021-04-11
+Chordian.SFZ rev. 2021-04-12
 An Omnichord OM-84-esque instrument/sound documentation.
 
 This is an SFZ v2 instrument. It has been tested in Sforzando.
 
-People who are members of the Omnichord Reddit, Discord, or other affiliated groups that did down an Omnichord OM-36 (or later models) by the 11th of April 2021 are 
-NOT ALLOWED TO USE this instrument.
+People who are members of the Omnichord Reddit, Discord, or other affiliated groups that did down an Omnichord 
+OM-36 (or later models) by the 11th of April 2021 are NOT ALLOWED TO USE this instrument.
 You have been literally no help at all.
 
 Exceptions to this are:
@@ -30,6 +30,11 @@ MIDI MAP:
 |     |     |     |     |     |     |     |     |     |     |     |     |     |     |  1  |  3  |  2  |  3  |  2  |  1  |  3  |
 |Root |     |     |     |     |     |     |     |     |     |     |     |     |     |Oct.0|Oct.0|Oct.1|Oct.1|Oct.2|Oct.3|Oct.3|
 |-C-3-|-D-3-|-E-3-|-F-3-|-G-3-|-A-3-|-B-3-|-C-4-|-D-4-|-E-4-|-F-4-|-G-4-|-A-4-|-B-4-|-C-5-|-D-5-|-E-5-|-F-5-|-G-5-|-A-5-|-B-5-|
+
+CC01 (Mod Wheel):
+    0:    -0.0s harp release time
+    v
+  100:    -5.0s harp release time
 
 NOTE:
 Most VST hosts send notes on the same time in a random order.
