@@ -1,3 +1,5 @@
+ATTENTION: THIS SECTION APPLIES TO EVERYTHING EXCEPT omnicastle.mid. PLEASE SEE https://opengameart.org/content/omnicastle FOR ITS LICENSE (CC-BY 4.0)
+
 Creative Commons Legal Code
 
 CC0 1.0 Universal
