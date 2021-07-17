@@ -4,10 +4,6 @@
 //
 //This is an SFZ v2 instrument. It has been tested in Sforzando.
 //
-//Exceptions to this are:
-//arcticmatt, creator of the http://onlineomnichord.com / https://github.com/arcticmatt/online-omnichord OM-27 documentation.
-//beepcreep, who sampled all 84 chords of an OM-84. https://freesound.org/people/beepcreep/packs/10882/
-//
 //MIDI MAP:
 //|            Chord Selection              |         Key Selection (Sticky!)         |         Chord Trigger and Drums         |
 //|  Required for Chord Trigger and Harp    |  Required for Chord Trigger and Bass    |   Chord Trigger requires Chord and Key  |
